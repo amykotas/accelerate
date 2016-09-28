@@ -28,6 +28,8 @@
   text-transform: uppercase;
 }
 
+/* Blog Posts */
+
 .blog-post {
   width: 50%;
 }
@@ -51,4 +53,28 @@
   font-weight: bold;
   color: #45ac9d;
   text-transform: uppercase;
+}
+
+/* Case Studies */
+
+aside.case-study-sidebar {
+  float: left;
+  width: 314px;
+  margin: 0 40px 0 0;
+}
+
+article.case-study {
+  margin-top: 40px;
+}
+
+div.case-study-images {
+  float: left;
+  width: 606px;
+  margin: 20px 0 0 0;
+}
+
+div.case-study-images img {
+  display: block;
+  margin-bottom: 50px;
+  border: 1px solid #dddddd;
 }
