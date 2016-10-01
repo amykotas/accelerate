@@ -28,6 +28,14 @@
   text-transform: uppercase;
 }
 
+/* Featured Work */
+.featured-work h3 {
+  color: gray;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
 /* Blog Posts */
 
 .blog-post {

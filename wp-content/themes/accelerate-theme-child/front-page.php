@@ -25,6 +25,13 @@ get_header(); ?>
 	</div><!-- .container -->
 </section><!-- .home-page -->
 
+<section class="featured-work">
+  <div class="site-content">
+      <h3>Featured Work</h3>
+
+  </div>
+</section>
+
 <section class="recent-posts">
   <div class="site-content">
     <div class="blog-post">
