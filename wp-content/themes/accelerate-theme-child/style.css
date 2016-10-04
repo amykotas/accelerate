@@ -29,25 +29,33 @@
 }
 
 /* Featured Work */
-section .featured-work {
-  margin-bottom: 30px;
-}
 .featured-work h4 {
   color: gray;
   text-align: center;
   text-transform: uppercase;
 }
 
-.individual-work {
-  width: 300px;
+ul.homepage-featured-work li {
+  display: inline-block;
+  text-align: center;
   margin-right: 10px;
-  float: left;
 }
 
-.individual-work figcaption {
+section.homepage-featured-work h3 {
   text-align: center;
-  font-family: inherit;
 }
+
+.individual-featured-work figure{
+    text-align: center;
+}
+
+.individual-featured-work h3 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
 /* Blog Posts */
 
 .blog-post {
