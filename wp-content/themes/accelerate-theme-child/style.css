@@ -29,13 +29,25 @@
 }
 
 /* Featured Work */
-.featured-work h3 {
+section .featured-work {
+  margin-bottom: 30px;
+}
+.featured-work h4 {
   color: gray;
   text-align: center;
   text-transform: uppercase;
 }
 
+.individual-work {
+  width: 300px;
+  margin-right: 10px;
+  float: left;
+}
 
+.individual-work figcaption {
+  text-align: center;
+  font-family: inherit;
+}
 /* Blog Posts */
 
 .blog-post {
