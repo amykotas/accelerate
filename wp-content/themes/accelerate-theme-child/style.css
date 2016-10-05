@@ -20,12 +20,22 @@
     background: none repeat scroll 0 0 #45ac9d;
 }
 
-.button {
-    background: none repeat scroll 0 0 #45ac9d;
+img {
+  max-width: 100%;
+  height: auto;
 }
 
-#masthead nav ul {
+#masthead ul {
   text-transform: uppercase;
+}
+
+#masthead ul li {
+  display: inline;
+  margin-right: 25px;
+}
+
+.button {
+    background: none repeat scroll 0 0 #45ac9d;
 }
 
 /* Featured Work */
@@ -35,13 +45,15 @@
   text-transform: uppercase;
 }
 
-ul.homepage-featured-work li {
+.homepage-featured-work li {
   display: inline-block;
   text-align: center;
-  margin-right: 10px;
+  width: 30%;
+  margin-right: 3%;
+  /* margin-right: 10px; */
 }
 
-section.homepage-featured-work h3 {
+.homepage-featured-work h3 {
   text-align: center;
 }
 
