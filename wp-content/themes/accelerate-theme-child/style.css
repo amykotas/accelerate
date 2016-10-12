@@ -141,3 +141,42 @@ div.case-study-images img {
 .case-study-sidebar {
   clear: both;
 }
+
+/* Contact Page Ninja Form styling */
+.narrow {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.nf-fields .nf-field-label label {
+  font-weight: normal;
+}
+
+.nf-field-container.firstname-container.label-above {
+  float: left;
+  width: 49%;
+  display: block;
+  clear: inherit;
+}
+
+.nf-field-container.email-container.label-above {
+  float: right;
+  width: 49%;
+  margin-left: 2%;
+  display: inline;
+  clear: inherit;
+}
+
+#nf-field-3 {
+  float: right;
+  color: #FFF;
+  background-color: #45AC9D;
+  border: none;
+  font-family: 'Montserrat', serif;
+  padding: 15px 80px;
+}
+
+/* highlight menu item for current page */
+li.current-menu-item a {
+font-weight: bold;
+}
