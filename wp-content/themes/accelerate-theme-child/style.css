@@ -180,3 +180,21 @@ div.case-study-images img {
 li.current-menu-item a {
 font-weight: bold;
 }
+
+/* About Page */
+.about-page {
+    background: url("img/hero-image.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+    height: 440px;
+    margin: 0 0 80px;
+    padding: 100px 0;
+}
+
+.about-hero {
+  text-align:center;
+}
+
+.about-hero h1 {
+  color:white;
+  font-weight:bold;
+  font-size: 36px;
+}
