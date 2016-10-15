@@ -25,6 +25,7 @@
  * @since Accelerate Marketing 1.0
  */
 
+// Custom Post Types
 function create_custom_post_types() {
     register_post_type( 'case_studies',
         array(
@@ -35,6 +36,17 @@ function create_custom_post_types() {
             'public' => true,
             'has_archive' => true,
             'rewrite' => array( 'slug' => 'case-studies' ),
+        )
+    );
+    register_post_type( 'Services',
+        array(
+            'labels' => array(
+                'name' => __( 'Services' ),
+                'singular_name' => __( 'Service' )
+            ),
+            'public' => true,
+            'has_archive' => true,
+            'rewrite' => array( 'slug' => 'services' ),
         )
     );
 }

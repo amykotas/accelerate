@@ -14,17 +14,24 @@
 
 get_header(); ?>
 
+<!-- Gets the hero and intro content for About page -->
 <section class="about-page">
   <div id="primary" class="site-content">
     <?php while ( have_posts() ) : the_post(); ?>
       <div class='about-hero'>
         <?php the_content(); ?>
-        <h3>Is this thing working?</h3>
-      </div>
+        <h1><span id="first-word">Accelerate</span> is a strategy and marketing agency located in the heart of NYC. Our goal is to build businesses by making our clients visible and making their customers smile.</h1>
+      </div><!-- #content -->
     <?php endwhile; // end of the loop. ?>
-
-    </div><!-- #content -->
   </div><!-- #primary -->
 </section><!-- .about-page -->
+
+<!-- List of Services -->
+<section class="services">
+  <div class="site-content">
+    <h3></h3>
+  </div>
+</section> <!-- end .services -->
+
 
 <?php get_footer(); ?>
