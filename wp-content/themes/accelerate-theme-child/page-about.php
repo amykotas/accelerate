@@ -26,6 +26,14 @@ get_header(); ?>
   </div><!-- #primary -->
 </section><!-- .about-page -->
 
+<section class="about-services-intro">
+  <div class="services-intro">
+    <h2>OUR SERVICES</h2>
+    <p>We take pride in our clients and the content we create
+    for them.<br>Here's a brief overview of our offered services.</p>
+  </div>
+</section>
+
 <!-- List of Services -->
 <section class="services">
   <div class="site-content">

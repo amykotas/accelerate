@@ -184,23 +184,37 @@ font-weight: bold;
 /* About Page */
 .about-page {
     background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
-    height: 440px;
-    margin: 0 0 80px;
-    padding: 100px 0;
+    background-position: bottom;
+    margin: 0 0 0 0;
+    padding: 50px 0;
+    height: 220px;
 }
 
 .about-hero {
   text-align:center;
+  width: 575px;
+  margin: auto;
 }
 
 .about-hero h1 {
   color:white;
-  font-weight:bold;
-  font-size: 24px;
-  font-weight: normal;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:normal;
+  font-size: 26px;
+  line-height: 38px;
   margin: 20px 0 80px;
 }
 
 #first-word {
   color: #45ac9d;
+}
+
+.services-intro {
+  text-align: center;
+  color: #909090;
+}
+
+.services-intro h2 {
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
 }
