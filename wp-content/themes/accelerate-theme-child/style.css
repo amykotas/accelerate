@@ -211,10 +211,32 @@ font-weight: bold;
 
 .services-intro {
   text-align: center;
-  color: #909090;
+  color: DimGray;
 }
 
 .services-intro h2 {
   font-size: 18px;
   font-family: 'Open Sans', sans-serif;
+}
+
+.about-services-posts {
+  width: 960px;
+  margin-top: 50px;
+}
+
+.about-services-icon {
+  width: 28%;
+  float: left;
+}
+
+.services-list-content {
+  width: 65%;
+  float: right;
+  color: DimGray;
+}
+
+.services-list-title {
+  font-size: 28px;
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 20px;
 }
