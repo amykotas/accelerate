@@ -220,8 +220,8 @@ font-weight: bold;
 }
 
 .about-services-posts {
-  width: 960px;
   margin-top: 50px;
+  overflow: hidden;
 }
 
 .about-services-icon {
@@ -239,4 +239,14 @@ font-weight: bold;
   font-size: 28px;
   font-family: 'Open Sans', sans-serif;
   padding-bottom: 20px;
+}
+
+.about-services-posts:nth-child(odd) .about-services-icon {
+  float: left;
+  margin-right: 3%;
+}
+
+.about-services-posts:nth-child(even) .about-services-icon {
+  float: right;
+  margin-left: 3%;
 }

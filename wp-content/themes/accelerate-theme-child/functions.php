@@ -25,6 +25,12 @@
  * @since Accelerate Marketing 1.0
  */
 
+//enqueues our External Font Awesome stylesheet
+function enqueue_our_required_stylesheets(){
+    wp_enqueue_style('font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+}
+add_action('wp_enqueue_scripts','enqueue_our_required_stylesheets');
+
 // Custom Post Types
 function create_custom_post_types() {
     register_post_type( 'case_studies',
