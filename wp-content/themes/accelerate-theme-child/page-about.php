@@ -52,13 +52,11 @@ get_header(); ?>
         </div>
         <?php the_content(); ?>
       </div>
-
     </div>
 
+    <?php endwhile; //end of the loop. ?>
+    <?php wp_reset_query(); // resets the altered query back to the original ?>
   </div><!-- end .site-content -->
-  <?php endwhile; //end of the loop. ?>
-  <?php wp_reset_query(); // resets the altered query back to the original ?>
 </section> <!-- end .services -->
-
 
 <?php get_footer(); ?>
