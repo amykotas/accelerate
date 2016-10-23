@@ -26,11 +26,14 @@ get_header(); ?>
 </section><!-- .about-page -->
 
 <section class="about-services-intro">
-  <div class="services-intro">
+  <div class="services-intro site-content">
     <!-- You can use custom fields for this title and this paragraph -->
-    <h2>OUR SERVICES</h2>
-    <p>We take pride in our clients and the content we create
-    for them.<br>Here's a brief overview of our offered services.</p>
+    <?php while ( have_posts() ) : the_post();
+      $intro_title = get_field('intro_title');
+      $intro_text = get_field('intro_text');?>
+    <h2><?php the_field('intro_title'); ?></h2>
+    <p><?php the_field('intro_text'); ?></p>
+    <?php endwhile; //end of the loop. ?>
   </div>
 </section>
 
