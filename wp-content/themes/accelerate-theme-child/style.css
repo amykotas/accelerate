@@ -59,6 +59,7 @@ img {
   margin-right: 10px;
   padding: 15%;
 }
+
 /* Featured Work */
 .featured-work h4 {
   color: gray;
@@ -114,6 +115,34 @@ img {
   font-weight: bold;
   color: #45ac9d;
   text-transform: uppercase;
+}
+
+/* Twitter Module */
+.home .widget-area  {
+  float: right;
+  width: 50%;
+}
+
+.home .widget-area h3 {
+  font-size: 16px;
+  font-family: 'Montserrat';
+  margin-bottom: 50px;
+  font-weight: bold;
+  color: #A6A6A6;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.home .widget-area ul {
+  list-style-type: none;
+}
+.home .widget-area .follow-us-link {
+  font-size: 16px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  color: #45ac9d;
+  text-transform: uppercase;
+  margin-left: 40px;
 }
 
 /* Case Studies */
