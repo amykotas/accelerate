@@ -39,25 +39,25 @@ img {
 }
 
 /* Footer */
-ul {
+.site-footer ul {
   overflow: auto;
 }
 
-ul li {
+.site-footer ul li {
   list-style-type: none;
   float: left;
 }
 
-ul li a i {
+.site-footer ul li a i {
   background: #000;
   color: #fff;
-  width: 40px;
-  height: 40px;
+  width: 100px;
+  height: 100px;
   border-radius: 20px;
   font-size: 25px;
   text-align: center;
   margin-right: 10px;
-  padding-top: 15%;
+  padding: 15%;
 }
 /* Featured Work */
 .featured-work h4 {
@@ -271,4 +271,27 @@ font-weight: bold;
 .about-services-posts:nth-child(even) .about-services-icon {
   float: right;
   margin-left: 3%;
+}
+
+/* 404 Page */
+.error-content {
+  width: 575px;
+  margin: auto;
+}
+
+.error-image img {
+  display: block;
+  margin: 20px auto 0 auto;
+}
+
+.error-text h2 {
+  font-size: 36px;
+  font-family: 'Monserrat', sans-serif;
+  font-weight: bold;
+  color: #45ac9d;
+  text-align: center;
+}
+
+.error-text a, a:link, a:hover {
+  color: #45ac9d;
 }
