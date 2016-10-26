@@ -27,7 +27,7 @@ get_header(); ?>
 
 <section class="featured-work">
   <div class="site-content">
-        <h4>Featured Work</h4>
+        <h2>Featured Work</h2>
         <ul class="homepage-featured-work">
           <?php query_posts('posts_per_page=3&post_type=case_studies'); ?>
           <?php while ( have_posts() ) : the_post();
@@ -48,12 +48,12 @@ get_header(); ?>
 </section>
 
 <section class="recent-posts">
-  <div class="site-content">
+  <div class="site-content home">
     <div class="blog-post">
-      <h4>From the Blog</h4>
+      <h3>From the Blog</h3>
       <?php query_posts('posts_per_page=1'); ?>
         <?php while ( have_posts() ) : the_post(); ?>
-          <h2><?php the_title(); ?></h2>
+          <h4><?php the_title(); ?></h4>
           <?php the_excerpt(); ?>
           <a class="read-more-link" href="<?php the_permalink(); ?>">Read More <span>&rsaquo;</span></a>
       <?php endwhile; // end of the loop ?>
@@ -61,8 +61,11 @@ get_header(); ?>
     </div>
     <!-- Twitter Feed -->
     <?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
-    <div id="secondary" class="widget-area home" role="complementary">
-    <?php dynamic_sidebar( 'sidebar-2' ); ?>
+    <div class="widget-area home" role="complementary">
+      <h3>Recent Tweets</h3>
+      <h4>@Accelerate</h4>
+      <?php dynamic_sidebar( 'sidebar-2' ); ?>
+      <a class="follow-us-link" href="http://twitter.com/amykotas">Follow Us <span>&rsaquo;</span></a>
     </div>
     <?php endif; ?>
   </div>
