@@ -120,7 +120,7 @@ img {
 
 /* Twitter Module */
 .widget {
-  margin-top: 36px;
+  margin-top: 6px;
   padding: 0;
 }
 
@@ -132,7 +132,7 @@ img {
 .home .widget-area h3 {
   font-size: 16px;
   font-family: 'Montserrat';
-  margin-bottom: 36px;
+  margin-bottom: 15px;
   font-weight: bold;
   color: #A6A6A6;
   text-transform: uppercase;
@@ -146,8 +146,8 @@ img {
   font-height: 29;
 }
 
-.widget-title {
-
+h3.widget-title {
+  display: none;
 }
 
 .home .widget-area ul {
