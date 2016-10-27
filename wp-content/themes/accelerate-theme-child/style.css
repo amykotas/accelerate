@@ -359,3 +359,11 @@ font-weight: bold;
 .error-text a, a:link, a:hover {
   color: #45ac9d;
 }
+
+/* Mailchimp Newsletter Form */
+
+#mc4wp-form-1 input[type=submit] {
+  background-color: #45ac9d;
+  color: white;
+  font-family: 'Montserrat';
+}
