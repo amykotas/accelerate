@@ -20,6 +20,9 @@
         <p>&copy; <?php bloginfo('title'); ?>, LLC
         </div>
       </div><!-- .site-info -->
+      <div class="menu-socialnav-container" class="menu">
+              <?php wp_nav_menu( array( 'theme_location' => 'socialnav' ) ); ?>
+    </div>
     </footer><!-- #colophon -->
   </div><!-- #page -->
 

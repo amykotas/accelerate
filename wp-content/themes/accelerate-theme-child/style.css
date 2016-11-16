@@ -60,6 +60,28 @@ img {
   padding: 15%;
 }
 
+/* Sidebar */
+.main-content {
+    float: left;
+    padding: 55px 40px 0 0;
+    width: 60%;
+}
+aside.sidebar {
+  border-left: 1px solid #bfbfbf;
+  padding: 55px 0;
+  padding-left: 20px;
+  float: left;
+  width: 31%;
+}
+
+/* Mailchimp Newsletter Form */
+
+#mc4wp-form-1 input[type=submit] {
+  background-color: #45ac9d;
+  color: white;
+  font-family: 'Montserrat';
+}
+
 /* Featured Work */
 .featured-work h2 {
   color: gray;
@@ -360,10 +382,3 @@ font-weight: bold;
   color: #45ac9d;
 }
 
-/* Mailchimp Newsletter Form */
-
-#mc4wp-form-1 input[type=submit] {
-  background-color: #45ac9d;
-  color: white;
-  font-family: 'Montserrat';
-}
