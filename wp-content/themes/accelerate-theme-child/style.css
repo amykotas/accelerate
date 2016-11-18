@@ -359,6 +359,12 @@ font-weight: bold;
   margin-left: 3%;
 }
 
+/* Social Media Footer */
+
+li.social-media-menu {
+  text-align: right;
+}
+
 /* 404 Page */
 .error-content {
   width: 575px;
